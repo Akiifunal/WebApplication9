@@ -1,0 +1,427 @@
+2022-09-20 10:45:50.615 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-20 10:45:51.146 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'WebApplication9Context' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.9' with options: None
+2022-09-20 10:45:51.210 +03:00 [DBG] Migrating using database 'main' on server 'WebApplication9.db'.
+2022-09-20 10:45:51.218 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 10:45:51.236 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 10:45:51.252 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-20 10:45:51.258 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2022-09-20 10:45:51.260 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 10:45:51.262 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 10:45:51.269 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-20 10:45:51.287 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-20 10:45:51.288 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 10:45:51.291 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 10:45:51.293 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 10:45:51.293 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 10:45:51.293 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-20 10:45:51.293 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-20 10:45:51.293 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 10:45:51.294 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 10:45:51.294 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-20 10:45:51.294 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-20 10:45:51.294 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 10:45:51.294 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 10:45:51.309 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-20 10:45:51.309 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-20 10:45:51.309 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 10:45:51.309 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 10:45:51.310 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-09-20 10:45:51.310 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-09-20 10:45:51.312 +03:00 [DBG] A data reader was disposed.
+2022-09-20 10:45:51.312 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 10:45:51.312 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 10:45:51.323 +03:00 [INF] Applying migration '20220919144257_DataSeed'.
+2022-09-20 10:45:51.360 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 10:45:51.360 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 10:45:51.361 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-20 10:45:51.363 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-09-20 10:45:51.364 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-20 10:45:51.364 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-20 10:45:51.364 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+2022-09-20 10:45:51.366 +03:00 [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+2022-09-20 10:45:51.367 +03:00 [DBG] Disposing transaction.
+2022-09-20 10:45:51.368 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 10:45:51.368 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 10:45:51.369 +03:00 [DBG] 'WebApplication9Context' disposed.
+2022-09-20 11:31:12.603 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-20 11:31:13.093 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'WebApplication9Context' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.9' with options: None
+2022-09-20 11:31:13.197 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.197 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.213 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.213 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.214 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.214 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.232 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.232 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.242 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.243 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.243 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.243 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.259 +03:00 [DBG] An entity of type 'City' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.263 +03:00 [DBG] An entity of type 'City' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.263 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.265 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.265 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.265 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:31:13.273 +03:00 [DBG] DetectChanges starting for 'WebApplication9Context'.
+2022-09-20 11:31:13.280 +03:00 [DBG] DetectChanges completed for 'WebApplication9Context'.
+2022-09-20 11:31:13.281 +03:00 [DBG] DetectChanges starting for 'WebApplication9Context'.
+2022-09-20 11:31:13.281 +03:00 [DBG] DetectChanges completed for 'WebApplication9Context'.
+2022-09-20 11:31:13.334 +03:00 [DBG] 'WebApplication9Context' disposed.
+2022-09-20 11:46:53.035 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-20 11:46:53.302 +03:00 [DBG] Hosting starting
+2022-09-20 11:46:53.718 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 2DD051CB4EAE3174A49387F1229B3ABAF25672AC)
+2022-09-20 11:46:53.759 +03:00 [INF] Now listening on: https://localhost:7273
+2022-09-20 11:46:53.760 +03:00 [INF] Now listening on: http://localhost:5273
+2022-09-20 11:46:53.761 +03:00 [DBG] Loaded hosting startup assembly WebApplication9
+2022-09-20 11:46:53.761 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-20 11:46:53.762 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-20 11:46:53.763 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-20 11:46:53.763 +03:00 [INF] Hosting environment: Development
+2022-09-20 11:46:53.764 +03:00 [INF] Content root path: C:\Users\akif_\source\repos\WebApplication9\WebApplication9\
+2022-09-20 11:46:53.764 +03:00 [DBG] Hosting started
+2022-09-20 11:46:53.830 +03:00 [DBG] Connection id "0HMKQSILFQ5E7" accepted.
+2022-09-20 11:46:53.830 +03:00 [DBG] Connection id "0HMKQSILFQ5E8" accepted.
+2022-09-20 11:46:53.832 +03:00 [DBG] Connection id "0HMKQSILFQ5E7" started.
+2022-09-20 11:46:53.832 +03:00 [DBG] Connection id "0HMKQSILFQ5E8" started.
+2022-09-20 11:46:54.272 +03:00 [DBG] Connection id "0HMKQSILFQ5E9" accepted.
+2022-09-20 11:46:54.279 +03:00 [DBG] Connection id "0HMKQSILFQ5E9" started.
+2022-09-20 11:46:54.473 +03:00 [DBG] Connection 0HMKQSILFQ5E9 established using the following protocol: "Tls13"
+2022-09-20 11:46:54.562 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/swagger/index.html - -
+2022-09-20 11:46:54.636 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-20 11:46:54.751 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-20 11:46:55.034 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-20 11:46:55.045 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/swagger/index.html - - - 200 - text/html;charset=utf-8 488.2082ms
+2022-09-20 11:46:55.050 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/_framework/aspnetcore-browser-refresh.js - -
+2022-09-20 11:46:55.059 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/_vs/browserLink - -
+2022-09-20 11:46:55.072 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 21.0587ms
+2022-09-20 11:46:55.140 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 81.1216ms
+2022-09-20 11:46:55.257 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/swagger/v1/swagger.json - -
+2022-09-20 11:46:55.483 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 226.1053ms
+2022-09-20 11:46:59.709 +03:00 [DBG] Connection id "0HMKQSILFQ5E9" received FIN.
+2022-09-20 11:46:59.715 +03:00 [DBG] Connection id "0HMKQSILFQ5E9" is closed. The last processed stream ID was 7.
+2022-09-20 11:46:59.716 +03:00 [DBG] Connection id "0HMKQSILFQ5E9" sending FIN because: "The client closed the connection."
+2022-09-20 11:46:59.729 +03:00 [DBG] Connection id "0HMKQSILFQ5E9" stopped.
+2022-09-20 11:47:20.457 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-20 11:47:20.947 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'WebApplication9Context' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.9' with options: None
+2022-09-20 11:47:20.988 +03:00 [DBG] Migrating using database 'main' on server 'WebApplication9.db'.
+2022-09-20 11:47:20.992 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 11:47:21.012 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 11:47:21.024 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-20 11:47:21.028 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2022-09-20 11:47:21.030 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 11:47:21.032 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 11:47:21.037 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-20 11:47:21.053 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-20 11:47:21.054 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 11:47:21.057 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 11:47:21.057 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 11:47:21.058 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 11:47:21.058 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-20 11:47:21.058 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-20 11:47:21.058 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 11:47:21.058 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 11:47:21.058 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-20 11:47:21.058 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-20 11:47:21.058 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 11:47:21.058 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 11:47:21.068 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-20 11:47:21.068 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-20 11:47:21.068 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 11:47:21.068 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 11:47:21.069 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-09-20 11:47:21.069 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-09-20 11:47:21.071 +03:00 [DBG] A data reader was disposed.
+2022-09-20 11:47:21.071 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 11:47:21.071 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 11:47:21.079 +03:00 [INF] Applying migration '20220920083113_DataSeed'.
+2022-09-20 11:47:21.103 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 11:47:21.103 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 11:47:21.104 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-20 11:47:21.106 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-09-20 11:47:21.107 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-20 11:47:21.107 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-20 11:47:21.107 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220920083113_DataSeed', '6.0.9');
+2022-09-20 11:47:21.107 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220920083113_DataSeed', '6.0.9');
+2022-09-20 11:47:21.108 +03:00 [DBG] Committing transaction.
+2022-09-20 11:47:21.112 +03:00 [DBG] Committed transaction.
+2022-09-20 11:47:21.113 +03:00 [DBG] Disposing transaction.
+2022-09-20 11:47:21.113 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-20 11:47:21.113 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-20 11:47:21.114 +03:00 [DBG] 'WebApplication9Context' disposed.
+2022-09-20 11:57:27.071 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-20 11:57:27.548 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'WebApplication9Context' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.9' with options: None
+2022-09-20 11:57:27.646 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.646 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.661 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.661 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.661 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.661 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.677 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.677 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.688 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.688 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.688 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.688 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.704 +03:00 [DBG] An entity of type 'City' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.708 +03:00 [DBG] An entity of type 'City' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.709 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.710 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.710 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.710 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 11:57:27.719 +03:00 [DBG] DetectChanges starting for 'WebApplication9Context'.
+2022-09-20 11:57:27.725 +03:00 [DBG] DetectChanges completed for 'WebApplication9Context'.
+2022-09-20 11:57:27.725 +03:00 [DBG] DetectChanges starting for 'WebApplication9Context'.
+2022-09-20 11:57:27.725 +03:00 [DBG] DetectChanges completed for 'WebApplication9Context'.
+2022-09-20 11:57:27.776 +03:00 [DBG] 'WebApplication9Context' disposed.
+2022-09-20 11:57:48.418 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-20 11:57:48.664 +03:00 [DBG] Hosting starting
+2022-09-20 11:57:49.006 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 2DD051CB4EAE3174A49387F1229B3ABAF25672AC)
+2022-09-20 11:57:49.072 +03:00 [INF] Now listening on: https://localhost:7273
+2022-09-20 11:57:49.073 +03:00 [INF] Now listening on: http://localhost:5273
+2022-09-20 11:57:49.074 +03:00 [DBG] Loaded hosting startup assembly WebApplication9
+2022-09-20 11:57:49.075 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-20 11:57:49.075 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-20 11:57:49.076 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-20 11:57:49.077 +03:00 [INF] Hosting environment: Development
+2022-09-20 11:57:49.078 +03:00 [INF] Content root path: C:\Users\akif_\source\repos\WebApplication9\WebApplication9\
+2022-09-20 11:57:49.078 +03:00 [DBG] Hosting started
+2022-09-20 11:57:49.314 +03:00 [DBG] Connection id "0HMKQSOOQVE5J" accepted.
+2022-09-20 11:57:49.314 +03:00 [DBG] Connection id "0HMKQSOOQVE5K" accepted.
+2022-09-20 11:57:49.317 +03:00 [DBG] Connection id "0HMKQSOOQVE5J" started.
+2022-09-20 11:57:49.317 +03:00 [DBG] Connection id "0HMKQSOOQVE5K" started.
+2022-09-20 11:57:49.330 +03:00 [DBG] Connection id "0HMKQSOOQVE5K" received FIN.
+2022-09-20 11:57:49.330 +03:00 [DBG] Connection id "0HMKQSOOQVE5J" received FIN.
+2022-09-20 11:57:49.518 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-20 11:57:49.781 +03:00 [DBG] Connection id "0HMKQSOOQVE5L" accepted.
+2022-09-20 11:57:49.518 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-20 11:57:50.021 +03:00 [DBG] Connection id "0HMKQSOOQVE5L" started.
+2022-09-20 11:57:50.027 +03:00 [DBG] Connection id "0HMKQSOOQVE5J" stopped.
+2022-09-20 11:57:50.027 +03:00 [DBG] Connection id "0HMKQSOOQVE5K" stopped.
+2022-09-20 11:57:50.031 +03:00 [DBG] Connection id "0HMKQSOOQVE5K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-20 11:57:50.031 +03:00 [DBG] Connection id "0HMKQSOOQVE5J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-20 11:57:50.076 +03:00 [DBG] Connection 0HMKQSOOQVE5L established using the following protocol: "Tls13"
+2022-09-20 11:57:50.130 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/swagger/index.html - -
+2022-09-20 11:57:50.163 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-20 11:57:50.257 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-20 11:57:50.394 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/_framework/aspnetcore-browser-refresh.js - -
+2022-09-20 11:57:50.394 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/_vs/browserLink - -
+2022-09-20 11:57:50.396 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-20 11:57:50.409 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/swagger/index.html - - - 200 - text/html;charset=utf-8 281.7288ms
+2022-09-20 11:57:50.409 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 14.3028ms
+2022-09-20 11:57:50.434 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.0530ms
+2022-09-20 11:57:50.566 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/swagger/v1/swagger.json - -
+2022-09-20 11:57:50.815 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 248.8123ms
+2022-09-20 11:57:51.165 +03:00 [DBG] Connection id "0HMKQSOOQVE5L" received FIN.
+2022-09-20 11:57:51.180 +03:00 [DBG] Connection id "0HMKQSOOQVE5L" is closed. The last processed stream ID was 7.
+2022-09-20 11:57:51.181 +03:00 [DBG] Connection id "0HMKQSOOQVE5L" sending FIN because: "The client closed the connection."
+2022-09-20 11:57:51.185 +03:00 [DBG] Connection id "0HMKQSOOQVE5L" stopped.
+2022-09-20 12:29:10.399 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-20 12:29:10.527 +03:00 [DBG] Hosting starting
+2022-09-20 12:29:10.668 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 2DD051CB4EAE3174A49387F1229B3ABAF25672AC)
+2022-09-20 12:29:10.702 +03:00 [INF] Now listening on: https://localhost:7273
+2022-09-20 12:29:10.703 +03:00 [INF] Now listening on: http://localhost:5273
+2022-09-20 12:29:10.704 +03:00 [DBG] Loaded hosting startup assembly WebApplication9
+2022-09-20 12:29:10.705 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-20 12:29:10.706 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-20 12:29:10.709 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-20 12:29:10.711 +03:00 [INF] Hosting environment: Development
+2022-09-20 12:29:10.712 +03:00 [INF] Content root path: C:\Users\akif_\source\repos\WebApplication9\WebApplication9\
+2022-09-20 12:29:10.713 +03:00 [DBG] Hosting started
+2022-09-20 12:29:11.130 +03:00 [DBG] Connection id "0HMKQTA9LA7MC" accepted.
+2022-09-20 12:29:11.130 +03:00 [DBG] Connection id "0HMKQTA9LA7MD" accepted.
+2022-09-20 12:29:11.187 +03:00 [DBG] Connection id "0HMKQTA9LA7MC" received FIN.
+2022-09-20 12:29:11.189 +03:00 [DBG] Connection id "0HMKQTA9LA7MD" received FIN.
+2022-09-20 12:29:11.208 +03:00 [DBG] Connection id "0HMKQTA9LA7MD" started.
+2022-09-20 12:29:11.208 +03:00 [DBG] Connection id "0HMKQTA9LA7MC" started.
+2022-09-20 12:29:11.345 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-20 12:29:11.345 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-20 12:29:11.497 +03:00 [DBG] Connection id "0HMKQTA9LA7MD" stopped.
+2022-09-20 12:29:11.497 +03:00 [DBG] Connection id "0HMKQTA9LA7MC" stopped.
+2022-09-20 12:29:11.514 +03:00 [DBG] Connection id "0HMKQTA9LA7MD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-20 12:29:11.514 +03:00 [DBG] Connection id "0HMKQTA9LA7MC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-20 12:29:11.620 +03:00 [DBG] Connection id "0HMKQTA9LA7ME" accepted.
+2022-09-20 12:29:11.730 +03:00 [DBG] Connection id "0HMKQTA9LA7ME" started.
+2022-09-20 12:29:11.954 +03:00 [DBG] Connection 0HMKQTA9LA7ME established using the following protocol: "Tls13"
+2022-09-20 12:29:12.177 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/swagger/index.html - -
+2022-09-20 12:29:12.299 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-20 12:29:12.445 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-20 12:29:12.781 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-20 12:29:12.791 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/_framework/aspnetcore-browser-refresh.js - -
+2022-09-20 12:29:12.791 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/_vs/browserLink - -
+2022-09-20 12:29:12.816 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 24.1495ms
+2022-09-20 12:29:12.816 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/swagger/index.html - - - 200 - text/html;charset=utf-8 645.3844ms
+2022-09-20 12:29:12.914 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 122.7286ms
+2022-09-20 12:29:13.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/swagger/v1/swagger.json - -
+2022-09-20 12:29:13.280 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 255.5455ms
+2022-09-20 12:29:29.246 +03:00 [DBG] Connection id "0HMKQTA9LA7MF" accepted.
+2022-09-20 12:29:29.250 +03:00 [DBG] Connection id "0HMKQTA9LA7MF" received FIN.
+2022-09-20 12:29:29.250 +03:00 [DBG] Connection id "0HMKQTA9LA7MF" started.
+2022-09-20 12:29:29.251 +03:00 [DBG] Connection id "0HMKQTA9LA7MG" accepted.
+2022-09-20 12:29:29.275 +03:00 [DBG] Connection id "0HMKQTA9LA7MG" started.
+2022-09-20 12:29:29.285 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-20 12:29:29.287 +03:00 [DBG] Connection id "0HMKQTA9LA7MF" stopped.
+2022-09-20 12:29:29.290 +03:00 [DBG] Connection id "0HMKQTA9LA7MF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-20 12:29:29.290 +03:00 [DBG] Connection 0HMKQTA9LA7MG established using the following protocol: "Tls13"
+2022-09-20 12:29:29.301 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7273/api/cities - -
+2022-09-20 12:29:29.304 +03:00 [DBG] The request path  does not match the path filter
+2022-09-20 12:29:29.328 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2022-09-20 12:29:29.333 +03:00 [DBG] Endpoint 'WebApplication9.Controllers.CitiesController.GetCities (WebApplication9)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2022-09-20 12:29:29.335 +03:00 [DBG] Request matched endpoint 'WebApplication9.Controllers.CitiesController.GetCities (WebApplication9)'
+2022-09-20 12:29:29.337 +03:00 [INF] Executing endpoint 'WebApplication9.Controllers.CitiesController.GetCities (WebApplication9)'
+2022-09-20 12:29:29.348 +03:00 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApplication9.Models.CityDto]] GetCities() on controller WebApplication9.Controllers.CitiesController (WebApplication9).
+2022-09-20 12:29:29.350 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-20 12:29:29.351 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-20 12:29:29.352 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-09-20 12:29:29.353 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-20 12:29:29.354 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-09-20 12:29:29.356 +03:00 [DBG] Executing controller factory for controller WebApplication9.Controllers.CitiesController (WebApplication9)
+2022-09-20 12:29:29.357 +03:00 [DBG] Executed controller factory for controller WebApplication9.Controllers.CitiesController (WebApplication9)
+2022-09-20 12:29:29.360 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-09-20 12:29:29.364 +03:00 [DBG] No information found on request to perform content negotiation.
+2022-09-20 12:29:29.364 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-09-20 12:29:29.365 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-09-20 12:29:29.366 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-09-20 12:29:29.367 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApplication9.Models.CityDto, WebApplication9, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-09-20 12:29:29.678 +03:00 [INF] Executed action WebApplication9.Controllers.CitiesController.GetCities (WebApplication9) in 317.8611ms
+2022-09-20 12:29:29.681 +03:00 [INF] Executed endpoint 'WebApplication9.Controllers.CitiesController.GetCities (WebApplication9)'
+2022-09-20 12:29:29.682 +03:00 [DBG] Connection id "0HMKQTA9LA7MG" completed keep alive response.
+2022-09-20 12:29:29.683 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7273/api/cities - - - 200 729 application/json;+charset=utf-8 381.3009ms
+2022-09-20 12:38:43.994 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-20 12:38:44.480 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'WebApplication9Context' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.9' with options: None
+2022-09-20 12:38:44.576 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.576 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.591 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.591 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.591 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.591 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.606 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.607 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.617 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.617 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.617 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.617 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.633 +03:00 [DBG] An entity of type 'City' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.637 +03:00 [DBG] An entity of type 'City' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.638 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.640 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.640 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.640 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 12:38:44.647 +03:00 [DBG] DetectChanges starting for 'WebApplication9Context'.
+2022-09-20 12:38:44.653 +03:00 [DBG] DetectChanges completed for 'WebApplication9Context'.
+2022-09-20 12:38:44.654 +03:00 [DBG] DetectChanges starting for 'WebApplication9Context'.
+2022-09-20 12:38:44.654 +03:00 [DBG] DetectChanges completed for 'WebApplication9Context'.
+2022-09-20 12:38:44.703 +03:00 [DBG] 'WebApplication9Context' disposed.
+2022-09-20 13:03:36.035 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-20 13:03:36.548 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'WebApplication9Context' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.9' with options: None
+2022-09-20 13:03:36.648 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.649 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.664 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.664 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.664 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.664 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.680 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.680 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.690 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.690 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.690 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.690 +03:00 [DBG] Context 'WebApplication9Context' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.706 +03:00 [DBG] An entity of type 'City' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.710 +03:00 [DBG] An entity of type 'City' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.710 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.712 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.712 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.712 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'WebApplication9Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-20 13:03:36.720 +03:00 [DBG] DetectChanges starting for 'WebApplication9Context'.
+2022-09-20 13:03:36.726 +03:00 [DBG] DetectChanges completed for 'WebApplication9Context'.
+2022-09-20 13:03:36.727 +03:00 [DBG] DetectChanges starting for 'WebApplication9Context'.
+2022-09-20 13:03:36.727 +03:00 [DBG] DetectChanges completed for 'WebApplication9Context'.
+2022-09-20 13:03:36.776 +03:00 [DBG] 'WebApplication9Context' disposed.
+2022-09-20 13:36:42.464 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-20 13:36:42.711 +03:00 [DBG] Hosting starting
+2022-09-20 13:36:43.004 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 2DD051CB4EAE3174A49387F1229B3ABAF25672AC)
+2022-09-20 13:36:43.064 +03:00 [INF] Now listening on: https://localhost:7273
+2022-09-20 13:36:43.065 +03:00 [INF] Now listening on: http://localhost:5273
+2022-09-20 13:36:43.065 +03:00 [DBG] Loaded hosting startup assembly WebApplication9
+2022-09-20 13:36:43.067 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-20 13:36:43.068 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-20 13:36:43.069 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-20 13:36:43.070 +03:00 [INF] Hosting environment: Development
+2022-09-20 13:36:43.071 +03:00 [INF] Content root path: C:\Users\akif_\source\repos\WebApplication9\WebApplication9\
+2022-09-20 13:36:43.071 +03:00 [DBG] Hosting started
+2022-09-20 13:36:43.078 +03:00 [DBG] Connection id "0HMKQUG17PKII" received FIN.
+2022-09-20 13:36:43.090 +03:00 [DBG] Connection id "0HMKQUG17PKII" accepted.
+2022-09-20 13:36:43.094 +03:00 [DBG] Connection id "0HMKQUG17PKII" started.
+2022-09-20 13:36:43.213 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-20 13:36:43.519 +03:00 [DBG] Connection id "0HMKQUG17PKIJ" accepted.
+2022-09-20 13:36:43.609 +03:00 [DBG] Connection id "0HMKQUG17PKIJ" started.
+2022-09-20 13:36:43.619 +03:00 [DBG] Connection id "0HMKQUG17PKII" stopped.
+2022-09-20 13:36:43.638 +03:00 [DBG] Connection id "0HMKQUG17PKII" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-20 13:36:43.728 +03:00 [DBG] Connection 0HMKQUG17PKIJ established using the following protocol: "Tls13"
+2022-09-20 13:36:43.851 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/swagger/index.html - -
+2022-09-20 13:36:43.903 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-20 13:36:44.022 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-20 13:36:44.183 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-20 13:36:44.192 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/_framework/aspnetcore-browser-refresh.js - -
+2022-09-20 13:36:44.194 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/swagger/index.html - - - 200 - text/html;charset=utf-8 345.5932ms
+2022-09-20 13:36:44.207 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/_vs/browserLink - -
+2022-09-20 13:36:44.220 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 28.0100ms
+2022-09-20 13:36:44.246 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.4232ms
+2022-09-20 13:36:44.371 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/swagger/v1/swagger.json - -
+2022-09-20 13:36:44.610 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 239.1077ms
+2022-09-20 13:36:53.195 +03:00 [DBG] Connection id "0HMKQUG17PKIJ" received FIN.
+2022-09-20 13:36:53.200 +03:00 [DBG] Connection id "0HMKQUG17PKIJ" is closed. The last processed stream ID was 7.
+2022-09-20 13:36:53.201 +03:00 [DBG] Connection id "0HMKQUG17PKIJ" sending FIN because: "The client closed the connection."
+2022-09-20 13:36:53.212 +03:00 [DBG] Connection id "0HMKQUG17PKIJ" stopped.

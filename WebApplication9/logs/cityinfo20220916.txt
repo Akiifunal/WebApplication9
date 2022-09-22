@@ -1,0 +1,276 @@
+2022-09-16 10:22:34.475 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-16 10:22:34.633 +03:00 [DBG] Hosting starting
+2022-09-16 10:22:35.129 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 2DD051CB4EAE3174A49387F1229B3ABAF25672AC)
+2022-09-16 10:22:35.170 +03:00 [INF] Now listening on: https://localhost:7273
+2022-09-16 10:22:35.170 +03:00 [INF] Now listening on: http://localhost:5273
+2022-09-16 10:22:35.171 +03:00 [DBG] Loaded hosting startup assembly WebApplication9
+2022-09-16 10:22:35.172 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-16 10:22:35.172 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-16 10:22:35.174 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-16 10:22:35.175 +03:00 [INF] Hosting environment: Development
+2022-09-16 10:22:35.176 +03:00 [INF] Content root path: C:\Users\akif_\source\repos\WebApplication9\WebApplication9\
+2022-09-16 10:22:35.176 +03:00 [DBG] Hosting started
+2022-09-16 10:22:35.490 +03:00 [DBG] Connection id "0HMKNMGT596OB" accepted.
+2022-09-16 10:22:35.493 +03:00 [DBG] Connection id "0HMKNMGT596OB" started.
+2022-09-16 10:22:35.545 +03:00 [DBG] Connection id "0HMKNMGT596OC" accepted.
+2022-09-16 10:22:35.547 +03:00 [DBG] Connection id "0HMKNMGT596OC" started.
+2022-09-16 10:22:36.225 +03:00 [DBG] Connection id "0HMKNMGT596OD" accepted.
+2022-09-16 10:22:36.243 +03:00 [DBG] Connection id "0HMKNMGT596OD" started.
+2022-09-16 10:22:36.410 +03:00 [DBG] Connection 0HMKNMGT596OD established using the following protocol: "Tls13"
+2022-09-16 10:22:36.561 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/swagger/index.html - -
+2022-09-16 10:22:36.631 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-16 10:22:36.745 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-16 10:22:37.020 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-16 10:22:37.034 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/_framework/aspnetcore-browser-refresh.js - -
+2022-09-16 10:22:37.051 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/_vs/browserLink - -
+2022-09-16 10:22:37.051 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/swagger/index.html - - - 200 - text/html;charset=utf-8 478.7591ms
+2022-09-16 10:22:37.058 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 21.7977ms
+2022-09-16 10:22:37.179 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 128.3063ms
+2022-09-16 10:22:37.258 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/swagger/v1/swagger.json - -
+2022-09-16 10:22:37.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 261.7197ms
+2022-09-16 10:22:41.722 +03:00 [DBG] Connection id "0HMKNMGT596OD" received FIN.
+2022-09-16 10:22:41.726 +03:00 [DBG] Connection id "0HMKNMGT596OD" is closed. The last processed stream ID was 7.
+2022-09-16 10:22:41.728 +03:00 [DBG] Connection id "0HMKNMGT596OD" sending FIN because: "The client closed the connection."
+2022-09-16 10:22:41.739 +03:00 [DBG] Connection id "0HMKNMGT596OD" stopped.
+2022-09-16 10:22:45.622 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-09-16 10:22:45.643 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-09-16 10:22:45.643 +03:00 [DBG] Connection id "0HMKNMGT596OB" stopped.
+2022-09-16 10:22:45.644 +03:00 [DBG] Connection id "0HMKNMGT596OC" stopped.
+2022-09-16 10:22:45.645 +03:00 [DBG] Connection id "0HMKNMGT596OB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-16 10:22:45.647 +03:00 [DBG] Connection id "0HMKNMGT596OC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-16 11:14:07.782 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-16 11:14:07.910 +03:00 [DBG] Hosting starting
+2022-09-16 11:14:08.148 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 2DD051CB4EAE3174A49387F1229B3ABAF25672AC)
+2022-09-16 11:14:08.212 +03:00 [INF] Now listening on: https://localhost:7273
+2022-09-16 11:14:08.213 +03:00 [INF] Now listening on: http://localhost:5273
+2022-09-16 11:14:08.214 +03:00 [DBG] Loaded hosting startup assembly WebApplication9
+2022-09-16 11:14:08.215 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-16 11:14:08.216 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-16 11:14:08.217 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-16 11:14:08.217 +03:00 [INF] Hosting environment: Development
+2022-09-16 11:14:08.218 +03:00 [INF] Content root path: C:\Users\akif_\source\repos\WebApplication9\WebApplication9\
+2022-09-16 11:14:08.219 +03:00 [DBG] Hosting started
+2022-09-16 11:14:08.506 +03:00 [DBG] Connection id "0HMKNNDMUIIEH" received FIN.
+2022-09-16 11:14:08.509 +03:00 [DBG] Connection id "0HMKNNDMUIIEH" accepted.
+2022-09-16 11:14:08.533 +03:00 [DBG] Connection id "0HMKNNDMUIIEH" started.
+2022-09-16 11:14:08.838 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-16 11:14:09.278 +03:00 [DBG] Connection id "0HMKNNDMUIIEI" accepted.
+2022-09-16 11:14:09.424 +03:00 [DBG] Connection id "0HMKNNDMUIIEI" started.
+2022-09-16 11:14:09.433 +03:00 [DBG] Connection id "0HMKNNDMUIIEH" stopped.
+2022-09-16 11:14:09.438 +03:00 [DBG] Connection id "0HMKNNDMUIIEH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-16 11:14:09.473 +03:00 [DBG] Connection 0HMKNNDMUIIEI established using the following protocol: "Tls13"
+2022-09-16 11:14:09.631 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/swagger/index.html - -
+2022-09-16 11:14:09.676 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-16 11:14:09.792 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-16 11:14:09.968 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-16 11:14:09.978 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/swagger/index.html - - - 200 - text/html;charset=utf-8 348.0751ms
+2022-09-16 11:14:09.982 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/_framework/aspnetcore-browser-refresh.js - -
+2022-09-16 11:14:10.018 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/_vs/browserLink - -
+2022-09-16 11:14:10.029 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 46.7134ms
+2022-09-16 11:14:10.064 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.1519ms
+2022-09-16 11:14:10.213 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7273/swagger/v1/swagger.json - -
+2022-09-16 11:14:10.462 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7273/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 249.5673ms
+2022-09-16 13:44:07.587 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-16 13:44:08.113 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'WebApplication9Context' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.9' with options: None
+2022-09-16 13:44:08.198 +03:00 [DBG] DetectChanges starting for 'WebApplication9Context'.
+2022-09-16 13:44:08.200 +03:00 [DBG] DetectChanges completed for 'WebApplication9Context'.
+2022-09-16 13:44:08.262 +03:00 [DBG] 'WebApplication9Context' disposed.
+2022-09-16 13:54:56.023 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-16 13:54:56.629 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'WebApplication9Context' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.9' with options: None
+2022-09-16 13:54:56.683 +03:00 [DBG] Migrating using database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.689 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.705 +03:00 [DBG] An error occurred using the connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.707 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.707 +03:00 [DBG] An error occurred using the connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.707 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.715 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 13:54:56.725 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-16 13:54:56.731 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2022-09-16 13:54:56.737 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2022-09-16 13:54:56.757 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2022-09-16 13:54:56.758 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 13:54:56.760 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.822 +03:00 [DBG] DetectChanges starting for 'WebApplication9Context'.
+2022-09-16 13:54:56.824 +03:00 [DBG] DetectChanges completed for 'WebApplication9Context'.
+2022-09-16 13:54:56.844 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-16 13:54:56.844 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-16 13:54:56.844 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.844 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 13:54:56.844 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2022-09-16 13:54:56.848 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2022-09-16 13:54:56.848 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 13:54:56.849 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.850 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.850 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 13:54:56.855 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-16 13:54:56.855 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-16 13:54:56.855 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.855 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 13:54:56.855 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-16 13:54:56.857 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-16 13:54:56.857 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 13:54:56.857 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.858 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-16 13:54:56.858 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-16 13:54:56.858 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.858 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 13:54:56.858 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-09-16 13:54:56.859 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-09-16 13:54:56.860 +03:00 [DBG] A data reader was disposed.
+2022-09-16 13:54:56.860 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 13:54:56.860 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.868 +03:00 [INF] Applying migration '20220916104408_WebApplication9DBInitialMigration'.
+2022-09-16 13:54:56.900 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.901 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 13:54:56.902 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-16 13:54:56.903 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-09-16 13:54:56.904 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-16 13:54:56.904 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-16 13:54:56.904 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "CityId" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2022-09-16 13:54:56.904 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "CityId" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2022-09-16 13:54:56.904 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-16 13:54:56.904 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-16 13:54:56.904 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointsOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointsOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointsOfInterest_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("CityId") ON DELETE CASCADE
+);
+2022-09-16 13:54:56.904 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointsOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointsOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointsOfInterest_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("CityId") ON DELETE CASCADE
+);
+2022-09-16 13:54:56.904 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-16 13:54:56.904 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-16 13:54:56.904 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointsOfInterest_CityId" ON "PointsOfInterest" ("CityId");
+2022-09-16 13:54:56.905 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointsOfInterest_CityId" ON "PointsOfInterest" ("CityId");
+2022-09-16 13:54:56.905 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-16 13:54:56.905 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-16 13:54:56.905 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220916104408_WebApplication9DBInitialMigration', '6.0.9');
+2022-09-16 13:54:56.905 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220916104408_WebApplication9DBInitialMigration', '6.0.9');
+2022-09-16 13:54:56.905 +03:00 [DBG] Committing transaction.
+2022-09-16 13:54:56.907 +03:00 [DBG] Committed transaction.
+2022-09-16 13:54:56.908 +03:00 [DBG] Disposing transaction.
+2022-09-16 13:54:56.908 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 13:54:56.908 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 13:54:56.909 +03:00 [DBG] 'WebApplication9Context' disposed.
+2022-09-16 14:16:39.290 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-16 14:16:39.781 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'WebApplication9Context' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.9' with options: None
+2022-09-16 14:16:39.865 +03:00 [DBG] DetectChanges starting for 'WebApplication9Context'.
+2022-09-16 14:16:39.867 +03:00 [DBG] DetectChanges completed for 'WebApplication9Context'.
+2022-09-16 14:16:39.868 +03:00 [DBG] DetectChanges starting for 'WebApplication9Context'.
+2022-09-16 14:16:39.868 +03:00 [DBG] DetectChanges completed for 'WebApplication9Context'.
+2022-09-16 14:16:39.873 +03:00 [DBG] DetectChanges starting for 'WebApplication9Context'.
+2022-09-16 14:16:39.874 +03:00 [DBG] DetectChanges completed for 'WebApplication9Context'.
+2022-09-16 14:16:39.874 +03:00 [DBG] DetectChanges starting for 'WebApplication9Context'.
+2022-09-16 14:16:39.874 +03:00 [DBG] DetectChanges completed for 'WebApplication9Context'.
+2022-09-16 14:16:39.923 +03:00 [DBG] 'WebApplication9Context' disposed.
+2022-09-16 14:18:15.416 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-16 14:18:15.897 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'WebApplication9Context' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.9' with options: None
+2022-09-16 14:18:15.938 +03:00 [DBG] Migrating using database 'main' on server 'WebApplication9.db'.
+2022-09-16 14:18:15.942 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 14:18:15.957 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 14:18:15.968 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-16 14:18:15.973 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2022-09-16 14:18:15.974 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 14:18:15.977 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 14:18:15.982 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-16 14:18:15.996 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-16 14:18:15.997 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 14:18:15.999 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 14:18:16.000 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 14:18:16.001 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 14:18:16.001 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-16 14:18:16.001 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-16 14:18:16.001 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 14:18:16.001 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 14:18:16.001 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-16 14:18:16.001 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-16 14:18:16.001 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 14:18:16.001 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 14:18:16.010 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-16 14:18:16.010 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-16 14:18:16.010 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 14:18:16.010 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 14:18:16.011 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-09-16 14:18:16.011 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-09-16 14:18:16.013 +03:00 [DBG] A data reader was disposed.
+2022-09-16 14:18:16.013 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 14:18:16.013 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 14:18:16.021 +03:00 [INF] Applying migration '20220916111639_WebApplication9DBAddPointOfInterestDescription'.
+2022-09-16 14:18:16.048 +03:00 [DBG] Opening connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 14:18:16.048 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 14:18:16.049 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-16 14:18:16.051 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-09-16 14:18:16.052 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-16 14:18:16.052 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-16 14:18:16.052 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointsOfInterest" ADD "Description" TEXT NOT NULL DEFAULT '';
+2022-09-16 14:18:16.053 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointsOfInterest" ADD "Description" TEXT NOT NULL DEFAULT '';
+2022-09-16 14:18:16.053 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-16 14:18:16.053 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-16 14:18:16.053 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220916111639_WebApplication9DBAddPointOfInterestDescription', '6.0.9');
+2022-09-16 14:18:16.053 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220916111639_WebApplication9DBAddPointOfInterestDescription', '6.0.9');
+2022-09-16 14:18:16.491 +03:00 [DBG] Committing transaction.
+2022-09-16 14:18:16.494 +03:00 [DBG] Committed transaction.
+2022-09-16 14:18:16.496 +03:00 [DBG] Disposing transaction.
+2022-09-16 14:18:16.496 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\akif_\source\repos\WebApplication9\WebApplication9\WebApplication9.db'.
+2022-09-16 14:18:16.496 +03:00 [DBG] Closed connection to database 'main' on server 'WebApplication9.db'.
+2022-09-16 14:18:16.497 +03:00 [DBG] 'WebApplication9Context' disposed.
