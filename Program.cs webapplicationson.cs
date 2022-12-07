@@ -17,6 +17,7 @@ Log.Logger = new LoggerConfiguration()
     .CreateLogger();
 
 
+
 var builder = WebApplication.CreateBuilder(args);
 //builder.Logging.ClearProviders();
 //.Logging.AddConsole();
