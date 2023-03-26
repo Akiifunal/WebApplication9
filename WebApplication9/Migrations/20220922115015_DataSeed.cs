@@ -7,7 +7,7 @@ namespace WebApplication9.Migrations
     public partial class DataSeed : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
-        {
+        {					
             migrationBuilder.InsertData(
                 table: "Cities",
                 columns: new[] { "Id", "Description", "Name" },
